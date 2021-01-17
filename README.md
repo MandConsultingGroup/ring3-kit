@@ -1,5 +1,5 @@
-# HookTaskmgr
-Hides Process From Task Manager Using WinAPI Hooking (NtQuerySystemInformation)
+# ring3-kit
+Hides Process From Task Manager Using NT Hooking (NtQuerySystemInformation). A simple Ring-3 (user mode) rootkit. 
 ## How
 - Hook the API function NtQuerySystemInformation() with our own function that hides a process
 from task manager
