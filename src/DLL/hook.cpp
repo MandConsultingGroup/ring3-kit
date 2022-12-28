@@ -1,5 +1,7 @@
 #include "hook.h"
 
+// Updated user commit
+
 NTSTATUS __stdcall Hook::HookedNtQuerySystemInformation(
 	__in		SYSTEM_INFORMATION_CLASS SystemInformationClass,
 	__inout		PVOID SystemInformation,
