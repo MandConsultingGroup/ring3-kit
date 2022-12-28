@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <winternl.h>
 
+// Updated user commit
+
 #define DEF_ERROR_CODE_STANDARD -1
 #define DEF_SUCCESS_CODE_STANDARD 0x00
 
